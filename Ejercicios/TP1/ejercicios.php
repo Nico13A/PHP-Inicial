@@ -155,7 +155,7 @@ function desencriptarEntero($num) {
 /* PROGRAMA Desencriptado
 Dado un numero entero encriptado, lo desencripta. */
 //Int $numIngresado, $numeroDesencriptado
-echo "Ingrese un numero para encriptar: ";
+echo "Ingrese un numero para desencriptar: ";
 $numIngresado = trim(fgets(STDIN));
 if ($numIngresado >= 1000 && $numIngresado <= 9999) {
     $numeroDesencriptado = desencriptarEntero($numIngresado);
