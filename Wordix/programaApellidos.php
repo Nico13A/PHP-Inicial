@@ -263,8 +263,9 @@ function esPalabraRepetida($nombreJugador, $palabra, $coleccionPartidas) {
 /**************************************/
 
 //Declaración de variables:
-
-
+//Array $coleccionPartidas, $coleccionPalabras, $partida, $resumen
+//Int $opcion, $numeroPalabra, $indiceAleatorio
+//String $nombreJugador
 //Inicialización de variables:
 $coleccionPalabras = cargarColeccionPalabras();
 $coleccionPartidas = cargarPartidas();
